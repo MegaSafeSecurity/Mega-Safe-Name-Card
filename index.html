@@ -87,7 +87,9 @@ header p{color:#c7c7c7;margin:0;font-size:14px}
 
 <section class="card back" aria-label="Bahagian belakang kad">
   <div class="shield" role="img" aria-label="Ikon perisai Mega Safe"></div>
-  <div class="company-name">MEGA SAFE<small>SECURITY SERVICES</small></div>
+  <span class="logo">
+          <img src="6196995981560189308-removebg-preview.png" alt="class=logo"></small>
+        </span></small></div>
   <div class="rule"></div>
   <div class="license"><strong>KDN Licensed Security Services Provider</strong><br>PIKM Member 0753</div>
   <p class="foot">PROTECTION · PROFESSIONALISM · TRUST</p>
@@ -112,7 +114,7 @@ const wa = document.getElementById("whatsapp");
 function updateWhatsApp(){
   const url = location.protocol.startsWith("http") ? location.href : "";
   const msg = shareText + (url ? "\\n\\nDigital card: " + url : "\\n\\nDigital card: (masukkan pautan website anda di sini)");
-  wa.href = "https://wa.me/?text=" + encodeURIComponent(msg);
+  wa.href = "https://megasafesecurity.github.io/www.megasafesecuritysdnbhd.com/#contact" + encodeURIComponent(msg);
 }
 updateWhatsApp();
 document.getElementById("saveContact").addEventListener("click", () => {
